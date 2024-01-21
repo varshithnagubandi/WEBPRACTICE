@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .box {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h4>India is my country</h4>
+      <button onclick="changeColor('blue')">Blue</button>
+      <button onclick="changeColor('red')">Red</button>
+      <button onclick="changeColor('green')">Green</button>
+    </div>
+
+    <script>
+      function changeColor(color) {
+        document.querySelector(".box").style.color = color;
+      }
+    </script>
+  </body>
+</html>
