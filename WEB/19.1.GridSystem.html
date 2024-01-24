@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        background-color: black;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 200px 400px 200px;
+        grid-template-rows: 200px 100px 150px 75px;
+        grid-column-gap: 1px;
+        grid-row-gap: 1px;
+      }
+      .item {
+        background-color: azure;
+        text-align: center;
+        margin: 10px;
+      }
+      .box {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      .box1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 100px;
+      }
+      .box2 {
+        height: 170px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item box">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+      <div class="item box2">11</div>
+      <div class="item box1">12</div>
+    </div>
+  </body>
+</html>
